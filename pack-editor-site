@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pack Editor - Black Friday</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #0f0f0f;
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 2rem;
+    }
+    .card {
+      background: #1c1c1c;
+      border-radius: 16px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+      max-width: 500px;
+      padding: 2rem;
+      text-align: center;
+    }
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      color: #00e676;
+    }
+    p {
+      font-size: 1rem;
+      margin-bottom: 1.5rem;
+    }
+    .price {
+      font-size: 2rem;
+      font-weight: bold;
+      color: #ffea00;
+      margin-bottom: 1rem;
+    }
+    img {
+      width: 200px;
+      margin: 1rem auto;
+      border-radius: 8px;
+    }
+    .btn {
+      display: inline-block;
+      padding: 0.75rem 1.5rem;
+      background: #00e676;
+      color: #000;
+      border: none;
+      border-radius: 8px;
+      font-size: 1rem;
+      font-weight: bold;
+      cursor: pointer;
+      text-decoration: none;
+      transition: background 0.3s;
+    }
+    .btn:hover {
+      background: #00c853;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>🔥 Pack Editor - Black Friday 🔥</h1>
+    <p>Leve agora o pack completo com templates, efeitos, presets e muito mais.</p>
+    <div class="price">R$ 29,90</div>
+    <p>Escaneie o QR Code abaixo para pagar via Pix:</p>
+    <img src="pix_qrcode.png" alt="QR Code Pix" />
+    <p>Após o pagamento, clique no botão abaixo para acessar seu pack:</p>
+    <a class="btn" href="https://seulink.com.br" target="_blank">ACESSAR O PACK</a>
+  </div>
+</body>
+</html>
